@@ -17,6 +17,9 @@
 #include QMK_KEYBOARD_H
 #include "keychron_common.h"
 
+// Instantly triggers CTRL if another key is pressed while holding caps lock
+#define HOLD_ON_OTHER_KEY_PRESS
+
 enum layers {
     MAC_BASE,
     MAC_FN1,
